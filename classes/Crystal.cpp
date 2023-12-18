@@ -28,10 +28,6 @@ Crystal::Crystal(const Cell &cell, long long x_size, long long y_size, long long
             {
                 cur_atom.Verle().push_back(&other_atom);
             }
-            else if (Distance(cur_atom.Coor(), other_atom) < 2*R_VERLE && cur_atom.Coor() != other_atom)
-            {
-                cur_atom.BigVerle().push_back(&other_atom);
-            }
         }
     }
 }
