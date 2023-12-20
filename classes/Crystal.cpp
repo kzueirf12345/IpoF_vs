@@ -22,11 +22,11 @@ Crystal::Crystal(const Cell &cell, long long x_size, long long y_size, long long
     }
     for (Atom &cur_atom : model)
     {
-        for (Coordinate& other_atom : all)
+        for (size_t i = 0; i < all.size(); ++i)
         {
-            if (Distance(cur_atom.Coor(), other_atom) < R_VERLE && cur_atom.Coor() != other_atom)
+            if (Distance(cur_atom.Coor(), all[i]) < R_VERLE && cur_atom.Coor() != all[i])
             {
-                cur_atom.Verle().push_back(&other_atom);
+                cur_atom.Verle().push_back(&all[i]);
             }
         }
     }
@@ -227,6 +227,7 @@ void Crystal::PguTranslate(Coordinate coor)
 void Crystal::GradientIteration()
 {
     std::vector<Atom> cur_model(this->model);
+    long long freq = 101; // simple number
     for (size_t i = 0; i < ITERATIONS_CNT; ++i)
     {
         std::vector<Atom> prev_model(std::move(cur_model));
@@ -238,9 +239,22 @@ void Crystal::GradientIteration()
 
             const Coordinate acceleration = cur_position.SumOfFlows() / MASS;
             this->model[j].Coor() = cur_position.Coor() * 2. - prev_position.Coor() + acceleration * TAU * TAU;
+        }
 
-            //update verle
-            
+        // update verle
+        if (i % freq == 0)
+        {
+            for (Atom &atom : this->model)
+            {
+                atom.Verle().clear();
+                for (size_t j = 0; j < all.size(); ++j)
+                {
+                    if (Distance(atom.Coor(), all[j]) < R_VERLE && atom.Coor() != all[j])
+                    {
+                        atom.Verle().push_back(&all[j]);
+                    }
+                }
+            }
         }
         time += TAU;
     }

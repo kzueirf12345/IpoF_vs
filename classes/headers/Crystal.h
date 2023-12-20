@@ -15,6 +15,7 @@ public:
     [[nodiscard]] long long XSize() const noexcept {return x_size;}
     [[nodiscard]] long long YSize() const noexcept {return y_size;}
     [[nodiscard]] long long ZSize() const noexcept {return z_size;}
+    [[nodiscard]] double Time() const noexcept {return time;}
     [[nodiscard]] const std::vector <Atom>& ModelAtomsVec() const noexcept {return model;}
     [[nodiscard]] std::vector <Atom>& ModelAtomsVec() noexcept {return model;}
     [[nodiscard]] const std::vector <Coordinate*>& PguCoordinatesVec() const noexcept {return pgu;}
@@ -30,10 +31,10 @@ private:
 
     std::vector <Atom> model;
     std::vector <Coordinate*> pgu;
-    double pgu_size;
     std::vector <Coordinate> all;
 
-    double time = 0;
-
+    double pgu_size;
     void PguTranslate(Coordinate coor);
+
+    double time = 0;
 };
