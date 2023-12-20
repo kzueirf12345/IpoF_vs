@@ -218,13 +218,12 @@ void Crystal::UpdateModelVerle() {
         std::jthread(&Crystal::UpdateModelVerleTh, this, 5),
         std::jthread(&Crystal::UpdateModelVerleTh, this, 6),
         std::jthread(&Crystal::UpdateModelVerleTh, this, 7),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 8)
-    };
+        std::jthread(&Crystal::UpdateModelVerleTh, this, 8)};
 }
-void Crystal::UpdateModelVerleTh(unsigned short num) {
+void Crystal::UpdateModelVerleTh(long long num) {
     const size_t sz = this->model.size() / 8;
     const size_t start = sz * (num - 1),
-                 end = (num == 6 ? this->model.size() : num * sz);
+                 end = (num == 8 ? this->model.size() : num * sz);
     for (size_t i = start; i < end; ++i) {
         this->model[i].Verle().clear();
         FillVerle(this->model[i]);
@@ -245,7 +244,7 @@ void Crystal::FillVerle(Atom &atom) {
 
 void Crystal::GradientIteration() {
     std::vector<Atom> cur_model(this->model);
-    long long freq = 101;  // simple number
+    long long freq = 997;  // simple number
     for (size_t i = 0; i < ITERATIONS_CNT; ++i) {
         std::vector<Atom> prev_model(std::move(cur_model));
         cur_model = this->model;

@@ -109,6 +109,7 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -116,8 +117,12 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/c++/12/bits/move_only_function.h \
+  /usr/include/c++/12/bits/mofunc_impl.h \
   /home/urodish/programming/IpoF_vs/classes/headers/Constants.h \
   /usr/include/c++/12/cmath \
   /usr/include/math.h \
@@ -169,6 +174,8 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/ios_base.h \
   /usr/include/c++/12/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
@@ -217,6 +224,9 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -375,6 +385,7 @@ classes/CMakeFiles/cls.dir/Cell.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -382,8 +393,12 @@ classes/CMakeFiles/cls.dir/Cell.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/c++/12/bits/move_only_function.h \
+  /usr/include/c++/12/bits/mofunc_impl.h \
   /home/urodish/programming/IpoF_vs/classes/headers/Constants.h \
   /usr/include/c++/12/cmath \
   /usr/include/math.h \
@@ -435,6 +450,8 @@ classes/CMakeFiles/cls.dir/Cell.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/ios_base.h \
   /usr/include/c++/12/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
@@ -483,6 +500,9 @@ classes/CMakeFiles/cls.dir/Cell.cpp.o: /home/urodish/programming/IpoF_vs/classes
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -590,6 +610,7 @@ classes/CMakeFiles/cls.dir/Constants.cpp.o: /home/urodish/programming/IpoF_vs/cl
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -597,7 +618,9 @@ classes/CMakeFiles/cls.dir/Constants.cpp.o: /home/urodish/programming/IpoF_vs/cl
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/specfun.h \
   /usr/include/c++/12/bits/stl_algobase.h \
   /usr/include/c++/12/bits/functexcept.h \
@@ -705,6 +728,7 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: /home/urodish/programming/IpoF_vs/c
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -712,7 +736,9 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: /home/urodish/programming/IpoF_vs/c
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/specfun.h \
   /usr/include/c++/12/bits/stl_algobase.h \
   /usr/include/c++/12/bits/functexcept.h \
@@ -789,6 +815,8 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: /home/urodish/programming/IpoF_vs/c
   /usr/include/c++/12/bits/stl_tempbuf.h \
   /usr/include/c++/12/bits/uniform_int_dist.h \
   /usr/include/c++/12/cstdlib \
+  /usr/include/c++/12/bits/move_only_function.h \
+  /usr/include/c++/12/bits/mofunc_impl.h \
   /usr/include/c++/12/iomanip \
   /usr/include/c++/12/iosfwd \
   /usr/include/c++/12/bits/stringfwd.h \
@@ -802,6 +830,8 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: /home/urodish/programming/IpoF_vs/c
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/bits/ios_base.h \
   /usr/include/c++/12/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
@@ -850,6 +880,9 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: /home/urodish/programming/IpoF_vs/c
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -995,6 +1028,7 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
@@ -1021,6 +1055,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/12/stdexcept \
   /usr/include/c++/12/exception \
   /usr/include/c++/12/bits/exception.h \
@@ -1084,8 +1120,11 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/12/bits/std_abs.h \
   /usr/include/c++/12/cstdio \
   /usr/include/stdio.h \
@@ -1094,6 +1133,9 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/12/bits/charconv.h \
   /usr/include/c++/12/bits/basic_string.tcc \
   /usr/include/c++/12/bits/std_thread.h \
@@ -1167,6 +1209,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
   /usr/include/c++/12/bits/stl_heap.h \
   /usr/include/c++/12/bits/stl_tempbuf.h \
   /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/c++/12/bits/move_only_function.h \
+  /usr/include/c++/12/bits/mofunc_impl.h \
   /home/urodish/programming/IpoF_vs/classes/headers/Constants.h \
   /usr/include/c++/12/cmath \
   /usr/include/math.h \
@@ -1216,8 +1260,6 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/bits/shared_ptr_base.h:
 
-/usr/include/c++/12/bits/shared_ptr.h:
-
 /usr/include/c++/12/condition_variable:
 
 /usr/include/c++/12/mutex:
@@ -1246,7 +1288,9 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/x86_64-linux-gnu/sys/syscall.h:
 
-/usr/include/syscall.h:
+/usr/include/c++/12/bits/shared_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
@@ -1270,15 +1314,23 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/ostream:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+/usr/include/c++/12/ios:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+/usr/include/c++/12/istream:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+/usr/include/c++/12/bits/basic_ios.h:
 
-/home/urodish/programming/IpoF_vs/classes/headers/Crystal.h:
+/usr/include/c++/12/sstream:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/c++/12/bits/quoted_string.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/12/bits/sstream.tcc:
+
+/usr/include/libintl.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -1302,9 +1354,7 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/c++/12/bits/sstream.tcc:
-
-/usr/include/libintl.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/12/bits/hashtable.h:
 
@@ -1349,6 +1399,12 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /home/urodish/programming/IpoF_vs/classes/headers/Cell.h:
 
 /usr/include/c++/12/bits/stl_bvector.h:
+
+/usr/include/c++/12/bits/locale_conv.h:
+
+/usr/include/c++/12/bits/stl_uninitialized.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/12/bits/streambuf_iterator.h:
 
@@ -1404,8 +1460,6 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/stdexcept:
 
-/usr/include/c++/12/istream:
-
 /home/urodish/programming/IpoF_vs/classes/headers/Constants.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -1422,6 +1476,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/bits/std_function.h:
 
+/usr/include/c++/12/bits/mofunc_impl.h:
+
 /usr/include/c++/12/bits/stl_vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
@@ -1431,6 +1487,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/12/locale:
+
+/usr/include/c++/12/bits/char_traits.h:
 
 /home/urodish/programming/IpoF_vs/classes/headers/Atom.h:
 
@@ -1464,7 +1522,15 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/new:
 
-/usr/include/c++/12/bits/quoted_string.h:
+/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/12/thread:
+
+/usr/include/c++/12/bits/codecvt.h:
+
+/usr/include/c++/12/bits/cpp_type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1530,6 +1596,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/bits/ptr_traits.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/locale.h:
@@ -1554,6 +1622,14 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
+/usr/include/syscall.h:
+
+/usr/include/c++/12/bits/move_only_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/12/tuple:
@@ -1561,8 +1637,6 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /usr/include/c++/12/bits/functional_hash.h:
 
 /usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/12/typeinfo:
 
@@ -1598,11 +1672,23 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/bits/allocator.h:
 
+/usr/include/c++/12/bits/stl_algobase.h:
+
+/home/urodish/programming/IpoF_vs/classes/headers/Crystal.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/c++/12/exception:
 
-/usr/include/c++/12/bits/stl_algobase.h:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -1631,10 +1717,6 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /usr/include/c++/12/tr1/modified_bessel_func.tcc:
 
 /usr/include/c++/12/tr1/poly_laguerre.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
@@ -1722,6 +1804,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
 /usr/include/c++/12/bits/ios_base.h:
 
 /usr/include/c++/12/cstdio:
@@ -1740,6 +1824,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
@@ -1751,8 +1837,6 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /usr/include/ctype.h:
 
 /usr/include/c++/12/bits/locale_classes.h:
-
-/usr/include/c++/12/bits/char_traits.h:
 
 /usr/include/c++/12/bits/cxxabi_forced.h:
 
@@ -1771,6 +1855,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/12/ctime:
 
 /usr/include/errno.h:
 
@@ -1798,6 +1884,8 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 
 /usr/include/c++/12/bits/allocated_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/c++/12/bits/nested_exception.h:
 
 /usr/include/c++/12/tr1/hypergeometric.tcc:
@@ -1813,25 +1901,3 @@ classes/CMakeFiles/cls.dir/Crystal.cpp.o: /home/urodish/programming/IpoF_vs/clas
 /usr/include/c++/12/bits/exception.h:
 
 /usr/include/c++/12/bits/locale_facets_nonio.h:
-
-/usr/include/c++/12/ctime:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
-
-/usr/include/c++/12/thread:
-
-/usr/include/c++/12/bits/cpp_type_traits.h:
-
-/usr/include/c++/12/bits/codecvt.h:
-
-/usr/include/c++/12/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/12/bits/stl_uninitialized.h:
-
-/usr/include/c++/12/bits/locale_conv.h:
-
-/usr/include/c++/12/bits/basic_ios.h:
-
-/usr/include/c++/12/sstream:
-
-/usr/include/c++/12/ios:

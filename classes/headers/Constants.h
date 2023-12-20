@@ -8,7 +8,7 @@ constexpr double G_TO_MY = KG_TO_AEM;         // * 1e16
 
 constexpr long long CNT_CRYSTAL_CELL = 5;
 constexpr double EQUAL_DIST = 3.615;              // angstream
-constexpr double PGU_THICKNESS = 2 * EQUAL_DIST;  // angstream
+constexpr double PGU_THICKNESS = 3 * EQUAL_DIST;  // angstream
 constexpr double R_VERLE = 2 * EQUAL_DIST;        // angstream
 
 constexpr double MASS = 63.546;                      // aem

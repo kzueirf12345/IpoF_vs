@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
@@ -24,7 +24,7 @@
 				},
 				{
 					"build" : "classes",
-					"jsonFile" : "directory-classes-Debug-754b670dd7c012d8d7bc.json",
+					"jsonFile" : "directory-classes-Release-754b670dd7c012d8d7bc.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
@@ -38,7 +38,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "cls::@ce6b8e4836d85b25e7e8",
-					"jsonFile" : "target-cls-Debug-bf64fb5a3d104720331b.json",
+					"jsonFile" : "target-cls-Release-569dbfb3cf025385609f.json",
 					"name" : "cls",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-ee2c512a8bce4db0f9c0.json",
+					"jsonFile" : "target-main-Release-e2a66a6dc9d86aa03e2c.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}

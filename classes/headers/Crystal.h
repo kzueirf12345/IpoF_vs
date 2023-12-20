@@ -55,6 +55,6 @@ class Crystal {
     inline void CreateModel();
 
     void UpdateModelVerle();
-    void UpdateModelVerleTh(unsigned short num);
+    void UpdateModelVerleTh(long long num);
     inline void FillVerle(Atom& atom);
 };

@@ -12,14 +12,10 @@ struct Coordinate {
     Coordinate(double x, double y, double z) noexcept : x(x), y(y), z(z) {}
 
     bool operator==(const Coordinate &other) const noexcept {
-        return std::abs(this->x - other.x) <= __DBL_EPSILON__ &&
-               std::abs(this->y - other.y) <= __DBL_EPSILON__ &&
-               std::abs(this->z - other.z) <= __DBL_EPSILON__;
+        return this->x == other.x && this->y == other.y && this->z == other.z;
     }
     bool operator!=(const Coordinate &other) const noexcept {
-        return std::abs(this->x - other.x) > __DBL_EPSILON__ &&
-               std::abs(this->y - other.y) > __DBL_EPSILON__ &&
-               std::abs(this->z - other.z) > __DBL_EPSILON__;
+        return this->x != other.x || this->y != other.y || this->z != other.z;
     }
 
     Coordinate operator+(const Coordinate &other) const noexcept {
