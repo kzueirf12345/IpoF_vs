@@ -210,15 +210,15 @@ void Crystal::PguTranslate(Coordinate coor) {
 }
 
 void Crystal::UpdateModelVerle() {
-    std::array<std::jthread, 8> tasks = {
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 1),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 2),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 3),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 4),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 5),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 6),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 7),
-        std::jthread(&Crystal::UpdateModelVerleTh, this, 8)};
+    std::array<std::future<void>, 8> tasks = {
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 1),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 2),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 3),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 4),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 5),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 6),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 7),
+        std::async(std::launch::async, &Crystal::UpdateModelVerleTh, this, 8)};
 }
 void Crystal::UpdateModelVerleTh(long long num) {
     const size_t sz = this->model.size() / 8;
