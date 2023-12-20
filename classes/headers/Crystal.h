@@ -1,5 +1,7 @@
 #pragma once
 
+#include <thread>
+
 #include "Cell.h"
 
 class Crystal
@@ -37,4 +39,8 @@ private:
     void PguTranslate(Coordinate coor);
 
     double time = 0;
+    inline void CreateModel();
+
+    void FillModelVerle();
+    inline void FillVerle(Atom& atom);
 };

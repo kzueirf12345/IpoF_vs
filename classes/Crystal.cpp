@@ -3,6 +3,12 @@
 Crystal::Crystal(const Cell &cell, long long x_size, long long y_size, long long z_size, double pgu_size)
     : cell(cell), x_size(x_size), y_size(y_size), z_size(z_size), pgu_size(pgu_size)
 {
+    CreateModel();
+    FillModelVerle();
+}
+
+void Crystal::CreateModel()
+{
     all.reserve(50 * x_size * y_size * z_size * cell.CoordinatesVec().size());
     for (long long x = 0; x < x_size; ++x)
     {
@@ -17,16 +23,6 @@ Crystal::Crystal(const Cell &cell, long long x_size, long long y_size, long long
                     model.push_back(Atom(&all.back()));
                     PguTranslate(all.back());
                 }
-            }
-        }
-    }
-    for (Atom &cur_atom : model)
-    {
-        for (size_t i = 0; i < all.size(); ++i)
-        {
-            if (Distance(cur_atom.Coor(), all[i]) < R_VERLE && cur_atom.Coor() != all[i])
-            {
-                cur_atom.Verle().push_back(&all[i]);
             }
         }
     }
@@ -217,6 +213,65 @@ void Crystal::PguTranslate(Coordinate coor)
         temp_coor = std::move(Coordinate(coor.x, coor.y, coor.z - z_limit));
         all.push_back(temp_coor);
         pgu.push_back(&all.back());
+    }
+}
+
+void Crystal::FillModelVerle()
+{
+    const size_t sz = this->model.size() / 6;
+    std::thread th1([this, sz]()
+                    {
+        for (size_t i = 0; i < sz; ++i)
+        {
+            this->FillVerle(this->model[i]);
+        } });
+    std::thread th2([this, sz]()
+                    {
+        for (size_t i = sz; i < 2*sz; ++i)
+        {
+            this->FillVerle(this->model[i]);
+        } });
+    std::thread th3([this, sz]()
+                    {
+        for (size_t i = 2*sz; i < 3*sz; ++i)
+        {
+            this->FillVerle(this->model[i]);
+        } });
+    std::thread th4([this, sz]()
+                    {
+        for (size_t i = 3*sz; i < 4*sz; ++i)
+        {
+            this->FillVerle(this->model[i]);
+        } });
+    std::thread th5([this, sz]()
+                    {
+        for (size_t i = 4*sz; i < 5*sz; ++i)
+        {
+            this->FillVerle(this->model[i]);
+        } });
+    std::thread th6([this, sz]()
+                    {
+        for (size_t i = 5*sz; i < this->model.size(); ++i)
+        {
+            this->FillVerle(this->model[i]);
+        } });
+    th1.join();
+    th2.join();
+    th3.join();
+    th4.join();
+    th5.join();
+    th6.join();
+}
+
+void Crystal::FillVerle(Atom &atom)
+{
+    const Coordinate coor = atom.Coor();
+    for (size_t i = 0; i < all.size(); ++i)
+    {
+        if (Distance(coor, all[i]) < R_VERLE && coor != all[i])
+        {
+            atom.Verle().push_back(&all[i]);
+        }
     }
 }
 
