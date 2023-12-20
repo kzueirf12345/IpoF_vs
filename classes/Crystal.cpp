@@ -266,8 +266,16 @@ void Crystal::GradientIteration() {
     }
 }
 
-double Crystal::Energy() const noexcept {
+double Crystal::Energy() noexcept {
     return 0.5 * D *
-           model[x_size * y_size * z_size * cell.CoordinatesVec().size() / 2]
-               .SumOfPotentials();
+           AtomSumOfPotential(model[x_size * y_size * z_size *
+                                    cell.CoordinatesVec().size() / 2]);
+}
+
+double Crystal::AtomSumOfPotential(const Atom &atom) noexcept {
+    double sum = 0;
+    for (const Coordinate &other_atom : this->all) {
+        sum += Potential(Distance(atom.Coor(), other_atom));
+    }
+    return sum;
 }

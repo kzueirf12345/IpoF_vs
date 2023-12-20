@@ -1,7 +1,8 @@
 #pragma once
 
-#include <thread>
 #include <future>
+#include <thread>
+
 #include "Cell.h"
 
 class Crystal {
@@ -38,7 +39,7 @@ class Crystal {
     }
 
     void GradientIteration();
-    double Energy() const noexcept;
+    double Energy() noexcept;
 
    private:
     long long x_size, y_size, z_size;
@@ -57,4 +58,6 @@ class Crystal {
     void UpdateModelVerle();
     void UpdateModelVerleTh(long long num);
     inline void FillVerle(Atom& atom);
+
+    inline double AtomSumOfPotential(const Atom& atom) noexcept;
 };

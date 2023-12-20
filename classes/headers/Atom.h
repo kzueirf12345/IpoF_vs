@@ -25,13 +25,12 @@ struct Atom {
     }
 
     Coordinate SumOfFlows() const noexcept;
-    double SumOfPotentials() const noexcept;
 
    private:
     Coordinate *coor;
     std::vector<Coordinate *> verle;
-
-    double Flow(double distance) const noexcept;
-    double Forse(double distance) const noexcept;
-    double Potential(double distance) const noexcept;
 };
+
+double Potential(double distance) noexcept;
+double Flow(double distance) noexcept;
+double Forse(double distance) noexcept;
