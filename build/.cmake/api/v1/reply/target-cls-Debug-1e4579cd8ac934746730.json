@@ -43,10 +43,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
-				},
-				{
-					"fragment" : "-std=gnu++23"
+					"fragment" : "-g -std=gnu++23"
 				}
 			],
 			"includes" : 

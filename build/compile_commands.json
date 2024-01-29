@@ -1,32 +1,38 @@
 [
 {
   "directory": "/home/urodish/programming/IpoF_vs/build",
-  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/main.dir/main.cpp.o -c /home/urodish/programming/IpoF_vs/main.cpp",
-  "file": "/home/urodish/programming/IpoF_vs/main.cpp"
+  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -g -std=gnu++23 -o CMakeFiles/main.dir/main.cpp.o -c /home/urodish/programming/IpoF_vs/main.cpp",
+  "file": "/home/urodish/programming/IpoF_vs/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
 },
 {
   "directory": "/home/urodish/programming/IpoF_vs/build/classes",
-  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/cls.dir/Coordinate.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Coordinate.cpp",
-  "file": "/home/urodish/programming/IpoF_vs/classes/Coordinate.cpp"
+  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -g -std=gnu++23 -o CMakeFiles/cls.dir/Coordinate.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Coordinate.cpp",
+  "file": "/home/urodish/programming/IpoF_vs/classes/Coordinate.cpp",
+  "output": "classes/CMakeFiles/cls.dir/Coordinate.cpp.o"
 },
 {
   "directory": "/home/urodish/programming/IpoF_vs/build/classes",
-  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/cls.dir/Cell.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Cell.cpp",
-  "file": "/home/urodish/programming/IpoF_vs/classes/Cell.cpp"
+  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -g -std=gnu++23 -o CMakeFiles/cls.dir/Cell.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Cell.cpp",
+  "file": "/home/urodish/programming/IpoF_vs/classes/Cell.cpp",
+  "output": "classes/CMakeFiles/cls.dir/Cell.cpp.o"
 },
 {
   "directory": "/home/urodish/programming/IpoF_vs/build/classes",
-  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/cls.dir/Crystal.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Crystal.cpp",
-  "file": "/home/urodish/programming/IpoF_vs/classes/Crystal.cpp"
+  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -g -std=gnu++23 -o CMakeFiles/cls.dir/Crystal.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Crystal.cpp",
+  "file": "/home/urodish/programming/IpoF_vs/classes/Crystal.cpp",
+  "output": "classes/CMakeFiles/cls.dir/Crystal.cpp.o"
 },
 {
   "directory": "/home/urodish/programming/IpoF_vs/build/classes",
-  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/cls.dir/Constants.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Constants.cpp",
-  "file": "/home/urodish/programming/IpoF_vs/classes/Constants.cpp"
+  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -g -std=gnu++23 -o CMakeFiles/cls.dir/Constants.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Constants.cpp",
+  "file": "/home/urodish/programming/IpoF_vs/classes/Constants.cpp",
+  "output": "classes/CMakeFiles/cls.dir/Constants.cpp.o"
 },
 {
   "directory": "/home/urodish/programming/IpoF_vs/build/classes",
-  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles/cls.dir/Atom.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Atom.cpp",
-  "file": "/home/urodish/programming/IpoF_vs/classes/Atom.cpp"
+  "command": "/usr/bin/g++  -I/home/urodish/programming/IpoF_vs/classes/headers -g -std=gnu++23 -o CMakeFiles/cls.dir/Atom.cpp.o -c /home/urodish/programming/IpoF_vs/classes/Atom.cpp",
+  "file": "/home/urodish/programming/IpoF_vs/classes/Atom.cpp",
+  "output": "classes/CMakeFiles/cls.dir/Atom.cpp.o"
 }
 ]
