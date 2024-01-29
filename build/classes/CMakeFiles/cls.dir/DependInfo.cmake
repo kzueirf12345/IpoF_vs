@@ -8,11 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/urodish/programming/IpoF_vs/classes/Atom.cpp" "classes/CMakeFiles/cls.dir/Atom.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Atom.cpp.o.d"
-  "/home/urodish/programming/IpoF_vs/classes/Cell.cpp" "classes/CMakeFiles/cls.dir/Cell.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Cell.cpp.o.d"
-  "/home/urodish/programming/IpoF_vs/classes/Constants.cpp" "classes/CMakeFiles/cls.dir/Constants.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Constants.cpp.o.d"
-  "/home/urodish/programming/IpoF_vs/classes/Coordinate.cpp" "classes/CMakeFiles/cls.dir/Coordinate.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Coordinate.cpp.o.d"
-  "/home/urodish/programming/IpoF_vs/classes/Crystal.cpp" "classes/CMakeFiles/cls.dir/Crystal.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Crystal.cpp.o.d"
+  "/home/urodish/programming/Programm_IpoF/classes/Atom.cpp" "classes/CMakeFiles/cls.dir/Atom.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Atom.cpp.o.d"
+  "/home/urodish/programming/Programm_IpoF/classes/Coordinate.cpp" "classes/CMakeFiles/cls.dir/Coordinate.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Coordinate.cpp.o.d"
+  "/home/urodish/programming/Programm_IpoF/classes/Crystal.cpp" "classes/CMakeFiles/cls.dir/Crystal.cpp.o" "gcc" "classes/CMakeFiles/cls.dir/Crystal.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

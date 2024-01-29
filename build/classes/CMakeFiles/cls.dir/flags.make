@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/urodish/programming/IpoF_vs/classes/headers
+CXX_INCLUDES = -I/home/urodish/programming/Programm_IpoF/classes/headers
 
-CXX_FLAGS = -g -std=gnu++23
+CXX_FLAGS = -g -std=gnu++20
 

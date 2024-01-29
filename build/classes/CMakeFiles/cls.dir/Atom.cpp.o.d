@@ -1,7 +1,7 @@
 classes/CMakeFiles/cls.dir/Atom.cpp.o: \
- /home/urodish/programming/IpoF_vs/classes/Atom.cpp \
+ /home/urodish/programming/Programm_IpoF/classes/Atom.cpp \
  /usr/include/stdc-predef.h \
- /home/urodish/programming/IpoF_vs/classes/headers/Atom.h \
+ /home/urodish/programming/Programm_IpoF/classes/headers/Atom.h \
  /usr/include/c++/13/functional \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -106,9 +106,7 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h \
- /usr/include/c++/13/bits/move_only_function.h \
- /usr/include/c++/13/bits/mofunc_impl.h \
- /home/urodish/programming/IpoF_vs/classes/headers/Constants.h \
+ /home/urodish/programming/Programm_IpoF/classes/headers/Constants.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -132,7 +130,7 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/urodish/programming/IpoF_vs/classes/headers/Coordinate.h \
+ /home/urodish/programming/Programm_IpoF/classes/headers/Coordinate.h \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -142,11 +140,14 @@ classes/CMakeFiles/cls.dir/Atom.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/13/iomanip \
- /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
- /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/13/iomanip /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
+ /usr/include/c++/13/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

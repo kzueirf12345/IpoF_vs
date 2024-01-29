@@ -1,6 +1,8 @@
 #pragma once
+
 #include <climits>
 #include <cmath>
+#include <cstdint>
 #include <functional>
 #include <iomanip>
 #include <iostream>
@@ -8,8 +10,8 @@
 struct Coordinate {
     double x, y, z;
 
-    Coordinate() noexcept : x(0.0), y(0.), z(0.) {}
-    Coordinate(double x, double y, double z) noexcept : x(x), y(y), z(z) {}
+    Coordinate() : x(0.0), y(0.), z(0.) {}
+    Coordinate(double x, double y, double z) : x(x), y(y), z(z) {}
 
     bool operator==(const Coordinate &other) const noexcept {
         return this->x == other.x && this->y == other.y && this->z == other.z;
@@ -19,20 +21,16 @@ struct Coordinate {
     }
 
     Coordinate operator+(const Coordinate &other) const noexcept {
-        return Coordinate(this->x + other.x, this->y + other.y,
-                          this->z + other.z);
+        return Coordinate(this->x + other.x, this->y + other.y, this->z + other.z);
     }
     Coordinate operator-(const Coordinate &other) const noexcept {
-        return Coordinate(this->x - other.x, this->y - other.y,
-                          this->z - other.z);
+        return Coordinate(this->x - other.x, this->y - other.y, this->z - other.z);
     }
     Coordinate operator*(const Coordinate &other) const noexcept {
-        return Coordinate(this->x * other.x, this->y * other.y,
-                          this->z * other.z);
+        return Coordinate(this->x * other.x, this->y * other.y, this->z * other.z);
     }
     Coordinate operator/(const Coordinate &other) const noexcept {
-        return Coordinate(this->x / other.x, this->y / other.y,
-                          this->z / other.z);
+        return Coordinate(this->x / other.x, this->y / other.y, this->z / other.z);
     }
 
     Coordinate operator+(double other) const noexcept {
@@ -59,3 +57,13 @@ struct Coordinate {
 };
 
 double Distance(const Coordinate &first, const Coordinate &second) noexcept;
+
+namespace std {
+template <>
+struct hash<Coordinate> {
+    size_t operator()(const Coordinate &coor) const {
+        return (size_t)(coor.x * 73856093ll + coor.y * 19349669ll + coor.z * 83492791ll) %
+               INT64_MAX;
+    }
+};
+} 

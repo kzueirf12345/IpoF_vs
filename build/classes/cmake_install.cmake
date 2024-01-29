@@ -1,4 +1,4 @@
-# Install script for directory: /home/urodish/programming/IpoF_vs/classes
+# Install script for directory: /home/urodish/programming/Programm_IpoF/classes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,7 +1,7 @@
 classes/CMakeFiles/cls.dir/Coordinate.cpp.o: \
- /home/urodish/programming/IpoF_vs/classes/Coordinate.cpp \
+ /home/urodish/programming/Programm_IpoF/classes/Coordinate.cpp \
  /usr/include/stdc-predef.h \
- /home/urodish/programming/IpoF_vs/classes/headers/Coordinate.h \
+ /home/urodish/programming/Programm_IpoF/classes/headers/Coordinate.h \
  /usr/include/c++/13/climits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -102,8 +102,11 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/functional \
- /usr/include/c++/13/bits/stl_function.h \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/stl_function.h \
  /usr/include/c++/13/backward/binders.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/invoke.h /usr/include/c++/13/bits/ranges_util.h \
@@ -139,12 +142,10 @@ classes/CMakeFiles/cls.dir/Coordinate.cpp.o: \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/cstdlib \
- /usr/include/c++/13/bits/move_only_function.h \
- /usr/include/c++/13/bits/mofunc_impl.h /usr/include/c++/13/iomanip \
- /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
- /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/c++/13/iomanip /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
+ /usr/include/c++/13/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

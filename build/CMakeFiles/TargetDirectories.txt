@@ -1,6 +1,6 @@
-/home/urodish/programming/IpoF_vs/build/CMakeFiles/main.dir
-/home/urodish/programming/IpoF_vs/build/CMakeFiles/edit_cache.dir
-/home/urodish/programming/IpoF_vs/build/CMakeFiles/rebuild_cache.dir
-/home/urodish/programming/IpoF_vs/build/classes/CMakeFiles/cls.dir
-/home/urodish/programming/IpoF_vs/build/classes/CMakeFiles/edit_cache.dir
-/home/urodish/programming/IpoF_vs/build/classes/CMakeFiles/rebuild_cache.dir
+/home/urodish/programming/Programm_IpoF/build/CMakeFiles/main.dir
+/home/urodish/programming/Programm_IpoF/build/CMakeFiles/edit_cache.dir
+/home/urodish/programming/Programm_IpoF/build/CMakeFiles/rebuild_cache.dir
+/home/urodish/programming/Programm_IpoF/build/classes/CMakeFiles/cls.dir
+/home/urodish/programming/Programm_IpoF/build/classes/CMakeFiles/edit_cache.dir
+/home/urodish/programming/Programm_IpoF/build/classes/CMakeFiles/rebuild_cache.dir

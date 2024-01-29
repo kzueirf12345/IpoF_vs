@@ -2,21 +2,17 @@
 
 Coordinate Atom::SumOfFlows() const noexcept {
     Coordinate sum;
-    for (const Coordinate* other_atom : this->Verle()) {
-        sum += (this->Coor() - *other_atom) *
-               Flow(Distance(this->Coor(), *other_atom));
+    for (const Coordinate& other_atom : this->Verle()) {
+        sum += (this->Coor() - other_atom) * Flow(Distance(this->Coor(), other_atom));
     }
-    return std::move(sum);
+    return sum;
 }
 
-double Flow(double distance) noexcept {
-    return Forse(distance) / distance;
-}
+double Flow(double distance) noexcept { return Forse(distance) / distance; }
 
 double Forse(double distance) noexcept {
     return 2 * ALPHA * D *
-           (exp(-2. * ALPHA * (distance - EQUAL_DIST) -
-                exp(-ALPHA * (distance - EQUAL_DIST))));
+           (exp(-2. * ALPHA * (distance - EQUAL_DIST) - exp(-ALPHA * (distance - EQUAL_DIST))));
 }
 
 double Potential(double distance) noexcept {
